@@ -1,0 +1,11 @@
+# Ignore the virtual environment
+.venv/
+
+# Ignore the database (it's heavy binary)
+*.db
+
+# Ignore compiled python files
+__pycache__/
+
+# SECURITY: Ignore secrets
+.env
